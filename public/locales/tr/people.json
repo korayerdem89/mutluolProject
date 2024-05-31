@@ -1,0 +1,22 @@
+{
+  "title": "Ekibimiz",
+  "description": "Uzman ve deneyimli ekibimizle tanışın.",
+  "teamLink": "Keşfet",
+  "people": [
+    {
+      "id": 1,
+      "title": "CEO",
+      "bio": "20 yılı aşkın sektör deneyimiyle şirketimizin vizyonunu belirliyor ve yönetiyor."
+    },
+    {
+      "id": 2,
+      "title": "CTO",
+      "bio": "Teknoloji alanında uzman olan Jane, inovatif çözümlerimizin arkasındaki itici güçtür."
+    },
+    {
+      "id": 3,
+      "title": "Pazarlama Müdürü",
+      "bio": "Mike, pazarlama stratejilerimizi geliştirmek ve marka bilinirliğimizi artırmak için çalışıyor."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Blog",
+  "description": "En son trendler, ipuçları ve güncellemeler için blog sayfamızı ziyaret edin.",
+  "posts": [
+    {
+      "id": 1,
+      "title": "İşletmenizin Büyümesi için 5 Strateji",
+      "date": "2023-05-15",
+      "author": "John Doe",
+      "excerpt": "İşletmenizin büyümesi için atmanız gereken 5 önemli adımı keşfedin..."
+    },
+    {
+      "id": 2,
+      "title": "Dijital Pazarlamanın Önemi",
+      "date": "2023-05-10",
+      "author": "Jane Smith",
+      "excerpt": "Dijital pazarlamanın işletmeniz için neden kritik olduğunu öğrenin..."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Hizmetlerimiz",
+  "description": "İşletmenizin ihtiyaçlarına yönelik kapsamlı hizmetler sunuyoruz.",
+  "services": [
+    {
+      "id": 1,
+      "title": "Strateji Danışmanlığı",
+      "description": "İşletmenizin hedeflerine ulaşmasına yardımcı olacak stratejiler geliştiriyoruz.",
+      "icon": "strategy-icon.png"
+    },
+    {
+      "id": 2,
+      "title": "Dijital Dönüşüm",
+      "description": "İşletmenizi dijital çağa uygun hale getirmek için teknoloji çözümleri sunuyoruz.",
+      "icon": "digital-icon.png"
+    },
+    {
+      "id": 3,
+      "title": "Pazarlama Danışmanlığı",
+      "description": "Markanızın bilinirliğini artırmak ve hedef kitlenize ulaşmak için etkili pazarlama stratejileri geliştiriyoruz.",
+      "icon": "marketing-icon.png"
+    }
+  ]
+}

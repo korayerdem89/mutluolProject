@@ -1,0 +1,20 @@
+{
+  "title": "Etkinlikler ve Konferanslar",
+  "description": "Yaklaşan etkinliklerimize ve konferanslarımıza göz atın.",
+  "events": [
+    {
+      "id": 1,
+      "title": "Yıllık İş Stratejileri Zirvesi",
+      "date": "2023-09-15",
+      "location": "İstanbul",
+      "description": "İş dünyasının önde gelen isimlerini bir araya getiren yıllık zirvemize katılın."
+    },
+    {
+      "id": 2,
+      "title": "Dijital Dönüşüm Semineri",
+      "date": "2023-10-20",
+      "location": "Ankara",
+      "description": "Dijital dönüşümün işletmeniz için nasıl fayda sağlayacağını keşfedin."
+    }
+  ]
+}

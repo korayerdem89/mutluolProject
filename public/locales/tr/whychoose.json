@@ -1,0 +1,34 @@
+{
+  "title": "Neden Bizi Tercih Etmelisiniz?",
+  "description": "Bizi rakiplerimizden ayıran özellikler.",
+  "reasons": [
+    {
+      "id": 1,
+      "title": "Güvenilirlik",
+      "description": "Müşterilerimizle her zaman şeffaf ve dürüst iletişim kuruyoruz. Verdiğimiz sözleri tutmak bizim için önemlidir.",
+      "icon": "trust-icon.png"
+    },
+    {
+      "id": 2,
+      "title": "Uzmanlık",
+      "description": "Ekibimiz, alanlarında uzman profesyonellerden oluşur. Sektördeki en son trendleri ve teknolojileri yakından takip ederiz.",
+      "icon": "expertise-icon.png"
+    },
+    {
+      "id": 3,
+      "title": "Esneklik",
+      "description": "Her müşterimizin benzersiz ihtiyaçları olduğunu biliriz. Hizmetlerimizi size özel olarak uyarlayabiliriz.",
+      "icon": "flexibility-icon.png"
+    },
+    {
+      "id": 4,
+      "title": "Müşteri Memnuniyeti",
+      "description": "Müşterilerimizin memnuniyeti bizim için en önemli önceliktir. İşletmenizin başarısı için elimizden gelenin en iyisini yaparız.",
+      "icon": "satisfaction-icon.png"
+    }
+  ],
+  "cta": {
+    "text": "Hizmetlerimiz Hakkında Daha Fazla Bilgi Alın",
+    "url": "/services"
+  }
+}

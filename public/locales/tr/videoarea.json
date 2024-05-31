@@ -1,0 +1,29 @@
+{
+  "title": "Neden Bizi Seçmelisiniz?",
+  "description": "İşletmenizin başarısına nasıl katkıda bulunabileceğimizi keşfedin.",
+  "video": {
+    "url": "https://www.youtube.com/watch?v=example",
+    "thumbnail": "video-thumbnail.jpg",
+    "alt": "Tanıtım Videosu"
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "Uzman Ekip",
+      "description": "Alanında uzman ve deneyimli ekibimizle size en iyi hizmeti sunuyoruz.",
+      "icon": "team-icon.png"
+    },
+    {
+      "id": 2,
+      "title": "İnovatif Çözümler",
+      "description": "Yaratıcı ve yenilikçi çözümlerimizle işletmenizi bir adım öne taşıyoruz.",
+      "icon": "innovation-icon.png"
+    },
+    {
+      "id": 3,
+      "title": "Müşteri Odaklılık",
+      "description": "Müşterilerimizin ihtiyaçlarını anlamak ve onlara özel çözümler sunmak önceliğimizdir.",
+      "icon": "customer-icon.png"
+    }
+  ]
+}

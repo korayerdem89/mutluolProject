@@ -1,0 +1,27 @@
+{
+  "title": "Müşteri Görüşleri",
+  "description": "Müşterilerimizin bizim hakkımızda söyledikleri.",
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "XYZ şirketiyle çalışmak bizim için bir dönüm noktası oldu. Sundukları hizmet ve uzmanlık olağanüstüydü.",
+      "author": "John Smith",
+      "company": "ABC Inc.",
+      "image": "john-smith.jpg"
+    },
+    {
+      "id": 2,
+      "quote": "Ekibin proaktif yaklaşımı ve hızlı yanıt süreleri bizi her zaman etkiledi. Kesinlikle tavsiye ediyorum.",
+      "author": "Jane Doe",
+      "company": "XYZ Corporation",
+      "image": "jane-doe.jpg"
+    },
+    {
+      "id": 3,
+      "quote": "XYZ şirketinin sağladığı çözümler, işletmemizin verimliliğini artırmada kritik bir rol oynadı.",
+      "author": "Mike Johnson",
+      "company": "123 Ltd.",
+      "image": "mike-johnson.jpg"
+    }
+  ]
+}
