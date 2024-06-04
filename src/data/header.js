@@ -1,5 +1,7 @@
+import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
-const Header = () => {
+const header = () => {
+  const router = useRouter();
   const { language } = useTranslation().i18n;
   return [
     {
@@ -19,7 +21,7 @@ const Header = () => {
     },
     {
       id: "3",
-      label: "projects",
+      label: "brands",
       link: `${language !== language + "tr" ? "/" : "/"}projects`,
     },
     {
@@ -30,8 +32,8 @@ const Header = () => {
     {
       id: "5",
       label: "press",
-      link: `${language !== "tr" ? language : "/"}press`,
+      link: `${language !== "tr" ? language : "/"}/press`,
     },
   ];
 };
-export default Header;
+export default header;

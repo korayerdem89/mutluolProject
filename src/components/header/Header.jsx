@@ -13,6 +13,7 @@ const initialState = {
   isSearchBarOpen: false,
   isLang: false,
 };
+
 function reducer(state, action) {
   switch (action.type) {
     case "TOGGLE_MENU":
