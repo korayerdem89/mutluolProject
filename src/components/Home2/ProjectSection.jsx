@@ -75,7 +75,7 @@ const ProjectSection = () => {
                         width={500}
                         height={268}
                         style={{ objectFit: "cover" }}
-                        src="/assets/img/home2/arsa.png"
+                        src="/assets/img/home2/real-estate2.jpg"
                         alt=""
                       />
                     </div>
@@ -239,7 +239,7 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <Image width={500} height={268} src="/assets/img/home2/ticari.png" alt="" />
+                      <Image width={500} height={268} src="/assets/img/home2/luxury.jpg" alt="" />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -277,12 +277,7 @@ const ProjectSection = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="project-card">
                     <div className="project-img">
-                      <Image
-                        width={500}
-                        height={268}
-                        src="/assets/img/home2/house.jpg"
-                        alt=""
-                      />
+                      <Image width={500} height={268} src="/assets/img/home2/house.jpg" alt="" />
                     </div>
                     <div className="project-content">
                       <div className="category-title">
@@ -294,6 +289,50 @@ const ProjectSection = () => {
                         <h4>
                           <Link legacyBehavior href="#">
                             <a>{t("project6")}</a>
+                          </Link>
+                        </h4>
+                      </div>
+                      <Link legacyBehavior href="#">
+                        <a className="explore-btn">
+                          {t("explore-project")}
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={12}
+                            height={12}
+                            viewBox="0 0 12 12"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"
+                            />
+                          </svg>
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                  <div className="project-card">
+                    <div className="project-img">
+                      <Image
+                        width={500}
+                        height={268}
+                        style={{ objectFit: "cover" }}
+                        src="/assets/img/home2/office.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="project-content">
+                      <div className="category-title">
+                        <div className="category">
+                          <Link legacyBehavior href="#">
+                            <a>{t("project7-title")}</a>
+                          </Link>
+                        </div>
+                        <h4>
+                          <Link legacyBehavior href="#">
+                            <a>{t("project7")}</a>
                           </Link>
                         </h4>
                       </div>

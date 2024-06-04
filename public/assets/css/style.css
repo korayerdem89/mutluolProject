@@ -58,7 +58,7 @@ Version: 1.0
   --title-color: #0d1720;
   --white-color: #fff;
   --paragraph-color: #566064;
-  --primary-color: #d6a45e;
+  --primary-color: #a79038;
 }
 
 * {
@@ -5302,7 +5302,6 @@ footer .footer-btm .social-area li a:hover i {
 .people-card2 .people-content .name-deg {
   border: 1px solid #eee;
   padding: 12px 10px;
- 
 }
 .people-card2 .people-content .name-deg h5 {
   margin-bottom: 0;
@@ -5321,10 +5320,9 @@ footer .footer-btm .social-area li a:hover i {
   font-size: 14px;
   font-weight: 500;
   text-align: center;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
- 
 .people-card2 .people-content .contact-area {
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;
