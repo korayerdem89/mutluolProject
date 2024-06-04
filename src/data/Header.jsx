@@ -1,5 +1,5 @@
 import { useTranslation } from "next-i18next";
-const header = () => {
+const Header = () => {
   const { language } = useTranslation().i18n;
   return [
     {
@@ -34,4 +34,4 @@ const header = () => {
     },
   ];
 };
-export default header;
+export default Header;
