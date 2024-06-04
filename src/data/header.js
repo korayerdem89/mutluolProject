@@ -1,7 +1,9 @@
 import { useTranslation } from "next-i18next";
-const header = () => {
+
+const Header = () => {
   const { language } = useTranslation().i18n;
-  return [
+
+  const menuData = [
     {
       id: "1",
       label: "home",
@@ -10,28 +12,31 @@ const header = () => {
     {
       id: "services",
       label: "services",
-      link: `${language !== language + "tr" ? "/" : "/"}services`,
+      link: `${language !== "tr" ? "/" + language : ""}/services`,
     },
     {
       id: "3",
       label: "about-us",
-      link: `${language !== language + "tr" ? "/" : "/"}about-us`,
+      link: `${language !== "tr" ? "/" + language : ""}/about-us`,
     },
     {
       id: "3",
       label: "projects",
-      link: `${language !== language + "tr" ? "/" : "/"}projects`,
+      link: `${language !== "tr" ? "/" + language : ""}/projects`,
     },
     {
       id: "4",
       label: "contact",
-      link: `${language !== language + "tr" ? "/" : "/"}contact`,
+      link: `${language !== "tr" ? "/" + language : ""}/contact`,
     },
     {
       id: "5",
       label: "press",
-      link: `${language !== "tr" ? language : "/"}press`,
+      link: `${language !== "tr" ? "/" + language : ""}/press`,
     },
   ];
+
+  return menuData;
 };
-export default header;
+
+export default Header;
