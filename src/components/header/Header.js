@@ -108,17 +108,16 @@ const Header = () => {
       {/* End Top Bar section */}
       {/* Start header section */}
       <header className="header-area style-2">
-        <div style={{ paddingRight: "10px" }}>
+        <div style={{ paddingRight: "20px" }}>
           <Link legacyBehavior href="/">
             <a>
               <Image
                 priority
-                width={49.5}
-                height={51}
+                width={150}
+                height={150}
                 alt="image"
                 className="img-fluid"
                 src="/assets/img/site-logo.png"
-                style={{ objectFit: "contain", width: "100px" }}
               />
             </a>
           </Link>
@@ -131,9 +130,10 @@ const Header = () => {
                   <a>
                     <Image
                       priority
-                      width={49.5}
-                      height={52}
+                      width={36}
+                      height={36}
                       alt="image"
+                      className="img-fluid"
                       src="/assets/img/site-logo.png"
                     />
                   </a>

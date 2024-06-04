@@ -18,12 +18,11 @@ const Footer2 = () => {
                         <a>
                           <Image
                             priority
-                            width={49.5}
-                            height={51}
+                            width={120}
+                            height={120}
                             alt="image"
                             className="img-fluid"
                             src="/assets/img/site-logo.png"
-                            style={{ objectFit: "contain", width: "280px" }}
                           />
                         </a>
                       </Link>
