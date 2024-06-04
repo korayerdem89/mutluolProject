@@ -21,8 +21,8 @@ const header = () => {
     },
     {
       id: "3",
-      label: "brands",
-      link: `${language !== language + "tr" ? "/" : "/"}brands`,
+      label: "projects",
+      link: `${language !== language + "tr" ? "/" : "/"}projects`,
     },
     {
       id: "4",
