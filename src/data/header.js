@@ -1,7 +1,5 @@
-import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 const header = () => {
-  const router = useRouter();
   const { language } = useTranslation().i18n;
   return [
     {
