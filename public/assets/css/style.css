@@ -1408,6 +1408,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 .header-area.style-2 .menu-wrap .nav-right .search-bar {
   position: relative;
+  gap: 10px;
 }
 .header-area.style-2 .menu-wrap .nav-right .search-bar svg {
   fill: var(--white-color);
@@ -5300,11 +5301,12 @@ footer .footer-btm .social-area li a:hover i {
 ========================================*/
 .people-card2 .people-content .name-deg {
   border: 1px solid #eee;
-  padding: 22px 30px;
-  min-height: 150px;
+  padding: 12px 10px;
+ 
 }
 .people-card2 .people-content .name-deg h5 {
   margin-bottom: 0;
+  text-align: center;
 }
 .people-card2 .people-content .name-deg h5 a {
   color: var(--title-color);
@@ -5313,12 +5315,16 @@ footer .footer-btm .social-area li a:hover i {
   font-weight: 400;
   line-height: 28px;
 }
-.people-card2 .people-content .name-deg span {
+.people-card2 .people-content .name-deg h6 {
   color: var(--paragraph-color);
   font-family: var(--font-montserrat);
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
+  margin-top:10px;
 }
+
+ 
 .people-card2 .people-content .contact-area {
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;

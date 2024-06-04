@@ -63,18 +63,13 @@ const PeopleSection = () => {
         <div className="row">
           <div className="col-lg-12 pl--95 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-end justify-content-between mb-60">
             <div className="section-title1 two">
-              <span>{t("title")}</span>
+              <h6>{t("title")}</h6>
               <h2>{t("description")}</h2>
             </div>
             <Link legacyBehavior href="/our-people1">
               <a className="primary-btn1 btn-hover">
-              {t("teamLink")}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width={12}
-                  height={12}
-                  viewBox="0 0 12 12"
-                >
+                {t("teamLink")}
+                <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} viewBox="0 0 12 12">
                   <path
                     fillRule="evenodd"
                     clipRule="evenodd"
@@ -100,8 +95,7 @@ const PeopleSection = () => {
                               <a>Hande Mutluol</a>
                             </Link>
                           </h5>
-                          <span>Broker Owner</span>
-                          <span>&nbsp;&nbsp;&nbsp; </span>
+                          <h6>Broker Owner</h6>
                         </div>
                       </div>
                     </div>
@@ -120,7 +114,7 @@ const PeopleSection = () => {
                               <a>Kağan Çığşar</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -139,7 +133,7 @@ const PeopleSection = () => {
                               <a>Esra Özgenç</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -158,7 +152,7 @@ const PeopleSection = () => {
                               <a>Ertuğrul Peker</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -177,7 +171,7 @@ const PeopleSection = () => {
                               <a>Gül Başıbüyük</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -196,7 +190,7 @@ const PeopleSection = () => {
                               <a>Oğuz Kaynaş</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -215,7 +209,7 @@ const PeopleSection = () => {
                               <a>Sinem Kaynaş</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -234,7 +228,7 @@ const PeopleSection = () => {
                               <a>Şenol Güneş</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -253,13 +247,13 @@ const PeopleSection = () => {
                               <a>Yasemin Peker</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
                 </div>
-                <div className="col-xl-3 col-lg-4 col-sm-6" >
+                <div className="col-xl-3 col-lg-4 col-sm-6">
                   <SwiperSlide className="swiper-slide">
                     <div className="people-card2 magnetic-item">
                       <div className="people-img">
@@ -272,7 +266,7 @@ const PeopleSection = () => {
                               <a>Aslı Aksoy</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -291,7 +285,7 @@ const PeopleSection = () => {
                               <a>Tuba Yeramyan</a>
                             </Link>
                           </h5>
-                          <span>Gayrimenkul Uzmanı</span>
+                          <h6>Gayrimenkul Uzmanı</h6>
                         </div>
                       </div>
                     </div>
@@ -310,7 +304,7 @@ const PeopleSection = () => {
                               <a>Burçak Şen</a>
                             </Link>
                           </h5>
-                          <span>Yabancı Satış Müdürü</span>
+                          <h6>Yabancı Satış Müdürü</h6>
                         </div>
                       </div>
                     </div>

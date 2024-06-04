@@ -32,7 +32,7 @@ const header = () => {
     {
       id: "5",
       label: "press",
-      link: `${language !== "tr" ? language : "/"}/press`,
+      link: `${language !== "tr" ? language : "/"}press`,
     },
   ];
 };

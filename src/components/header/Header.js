@@ -197,9 +197,9 @@ const Header = () => {
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width={16}
-                        height={16}
-                        viewBox="0 0 16 16"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
                         fill="none"
                       >
                         <path
@@ -209,25 +209,22 @@ const Header = () => {
                       </svg>
                       <span className="language-text">{t("language")}</span>
                     </div>
-                    <div
-                      className="currency-btn"
-                      style={{ alignItems: "center", display: "flex" }}
-                      onClick={toggleCurrency}
-                    >
+                    {/* <div className="currency-btn" onClick={toggleCurrency}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width={16}
-                        height={16}
-                        viewBox="0 0 16 16"
-                        fill="none"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="rgba(0, 0, 0, 1) transform: ;msFilter:;"
                       >
                         <path
-                          d="M152,116H140V60h4a28.03146,28.03146,0,0,1,28,28,12,12,0,0,0,24,0,52.059,52.059,0,0,0-52-52h-4V24a12,12,0,0,0-24,0V36h-8a52,52,0,0,0,0,104h8v56H104a28.03146,28.03146,0,0,1-28-28,12,12,0,0,0-24,0,52.059,52.059,0,0,0,52,52h12v12a12,12,0,0,0,24,0V220h12a52,52,0,0,0,0-104Zm-44,0a28,28,0,0,1,0-56h8v56Zm44,80H140V140h12a28,28,0,0,1,0,56Z"
+                          d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm1 14.915V18h-2v-1.08c-2.339-.367-3-2.002-3-2.92h2c.011.143.159 1 2 1 1.38 0 2-.585 2-1 0-.324 0-1-2-1-3.48 0-4-1.88-4-3 0-1.288 1.029-2.584 3-2.915V6.012h2v1.109c1.734.41 2.4 1.853 2.4 2.879h-1l-1 .018C13.386 9.638 13.185 9 12 9c-1.299 0-2 .516-2 1 0 .374 0 1 2 1 3.48 0 4 1.88 4 3 0 1.288-1.029 2.584-3 2.915z"
                           fill="#d6a45e"
                         />
                       </svg>
-                      <span className="currency-text">{t("currency")}</span>
-                    </div>
+                      <span className="language-text">{t("currency")}</span>
+                    </div> */}
+
                     <ul
                       className={`lang-card ${state.isLang ? "" : "d-none"}`}
                       style={{ marginTop: "6px" }}
@@ -272,16 +269,8 @@ const Header = () => {
                       className={`currency-card ${state.isCurrency ? "" : "d-none"}`}
                       style={{ marginTop: "6px" }}
                     >
-                      {t("currency") !== "TL" && (
-                        <li onClick={toggleCurrency}>
-                            TL
-                        </li>
-                      )}
-                      {t("currency") !== "USD" && (
-                        <li onClick={toggleCurrency}>
-                            USD
-                        </li>
-                      )}
+                      {t("currency") !== "TL" && <li onClick={toggleCurrency}>TL</li>}
+                      {t("currency") !== "USD" && <li onClick={toggleCurrency}>USD</li>}
                     </ul>
                   </div>
                 </li>
@@ -318,7 +307,6 @@ const Header = () => {
                     fill="white"
                   />
                 </svg>
-
               </div>
               <ul className={`lang-card ${state.isLang ? "active" : ""}`}>
                 {t("language") !== "TR" && (
@@ -358,16 +346,8 @@ const Header = () => {
                 )}
               </ul>
               <ul className={`lang-card ${state.isCurrency ? "active" : ""}`}>
-                {t("currency") !== "TL" && (
-                  <li onClick={toggleCurrency}>
-                      TL
-                  </li>
-                )}
-                {t("currency") !== "USD" && (
-                  <li onClick={toggleCurrency}>
-                      USD
-                  </li>
-                )}
+                {t("currency") !== "TL" && <li onClick={toggleCurrency}>TL</li>}
+                {t("currency") !== "USD" && <li onClick={toggleCurrency}>USD</li>}
               </ul>
             </div>
 
