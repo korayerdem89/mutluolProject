@@ -5841,9 +5841,9 @@ footer .footer-btm .social-area li a:hover i {
   color: var(--title-color);
   text-align: center;
   font-family: var(--font-montserrat);
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 30px;
   position: absolute;
   left: 50%;
   top: 50%;
